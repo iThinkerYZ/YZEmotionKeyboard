@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC56BA531D56257E00881CBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56BA521D56257E00881CBE /* main.m */; };
+		EC56BA561D56257E00881CBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56BA551D56257E00881CBE /* AppDelegate.m */; };
+		EC56BA591D56257E00881CBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56BA581D56257E00881CBE /* ViewController.m */; };
+		EC56BA5C1D56257E00881CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56BA5A1D56257E00881CBE /* Main.storyboard */; };
+		EC56BA5E1D56257E00881CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC56BA5D1D56257E00881CBE /* Assets.xcassets */; };
+		EC56BA611D56257E00881CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56BA5F1D56257E00881CBE /* LaunchScreen.storyboard */; };
+		EC56BA8C1D5631E800881CBE /* YZInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC56BA8B1D5631E800881CBE /* YZInputView.m */; };
+		EC697FC41D56FB7F002CE411 /* Emotion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC697FB11D56FB7F002CE411 /* Emotion.bundle */; };
+		EC697FC51D56FB7F002CE411 /* emotion.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC697FB21D56FB7F002CE411 /* emotion.plist */; };
+		EC697FC61D56FB7F002CE411 /* emotionToText.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC697FB31D56FB7F002CE411 /* emotionToText.plist */; };
+		EC697FC71D56FB7F002CE411 /* UITextField+YZEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = EC697FB51D56FB7F002CE411 /* UITextField+YZEmotion.m */; };
+		EC697FC81D56FB7F002CE411 /* UITextView+YZEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = EC697FB71D56FB7F002CE411 /* UITextView+YZEmotion.m */; };
+		EC697FC91D56FB7F002CE411 /* YZEmotionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC697FB91D56FB7F002CE411 /* YZEmotionCell.m */; };
+		EC697FCA1D56FB7F002CE411 /* YZEmotionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC697FBA1D56FB7F002CE411 /* YZEmotionCell.xib */; };
+		EC697FCB1D56FB7F002CE411 /* YZEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EC697FBC1D56FB7F002CE411 /* YZEmotionKeyboard.m */; };
+		EC697FCC1D56FB7F002CE411 /* YZEmotionKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC697FBD1D56FB7F002CE411 /* YZEmotionKeyboard.xib */; };
+		EC697FCD1D56FB7F002CE411 /* YZEmotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC697FBF1D56FB7F002CE411 /* YZEmotionManager.m */; };
+		EC697FCE1D56FB7F002CE411 /* YZEmotionPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC697FC11D56FB7F002CE411 /* YZEmotionPageCell.m */; };
+		EC697FCF1D56FB7F002CE411 /* YZTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = EC697FC31D56FB7F002CE411 /* YZTextAttachment.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC56BA4E1D56257E00881CBE /* YZEmotionKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZEmotionKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC56BA521D56257E00881CBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC56BA541D56257E00881CBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC56BA551D56257E00881CBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC56BA571D56257E00881CBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC56BA581D56257E00881CBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC56BA5B1D56257E00881CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC56BA5D1D56257E00881CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC56BA601D56257E00881CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC56BA621D56257F00881CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC56BA8A1D5631E800881CBE /* YZInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZInputView.h; sourceTree = "<group>"; };
+		EC56BA8B1D5631E800881CBE /* YZInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZInputView.m; sourceTree = "<group>"; };
+		EC697FB11D56FB7F002CE411 /* Emotion.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emotion.bundle; sourceTree = "<group>"; };
+		EC697FB21D56FB7F002CE411 /* emotion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emotion.plist; sourceTree = "<group>"; };
+		EC697FB31D56FB7F002CE411 /* emotionToText.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emotionToText.plist; sourceTree = "<group>"; };
+		EC697FB41D56FB7F002CE411 /* UITextField+YZEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+YZEmotion.h"; sourceTree = "<group>"; };
+		EC697FB51D56FB7F002CE411 /* UITextField+YZEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+YZEmotion.m"; sourceTree = "<group>"; };
+		EC697FB61D56FB7F002CE411 /* UITextView+YZEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+YZEmotion.h"; sourceTree = "<group>"; };
+		EC697FB71D56FB7F002CE411 /* UITextView+YZEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+YZEmotion.m"; sourceTree = "<group>"; };
+		EC697FB81D56FB7F002CE411 /* YZEmotionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZEmotionCell.h; sourceTree = "<group>"; };
+		EC697FB91D56FB7F002CE411 /* YZEmotionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZEmotionCell.m; sourceTree = "<group>"; };
+		EC697FBA1D56FB7F002CE411 /* YZEmotionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZEmotionCell.xib; sourceTree = "<group>"; };
+		EC697FBB1D56FB7F002CE411 /* YZEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZEmotionKeyboard.h; sourceTree = "<group>"; };
+		EC697FBC1D56FB7F002CE411 /* YZEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZEmotionKeyboard.m; sourceTree = "<group>"; };
+		EC697FBD1D56FB7F002CE411 /* YZEmotionKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZEmotionKeyboard.xib; sourceTree = "<group>"; };
+		EC697FBE1D56FB7F002CE411 /* YZEmotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZEmotionManager.h; sourceTree = "<group>"; };
+		EC697FBF1D56FB7F002CE411 /* YZEmotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZEmotionManager.m; sourceTree = "<group>"; };
+		EC697FC01D56FB7F002CE411 /* YZEmotionPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZEmotionPageCell.h; sourceTree = "<group>"; };
+		EC697FC11D56FB7F002CE411 /* YZEmotionPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZEmotionPageCell.m; sourceTree = "<group>"; };
+		EC697FC21D56FB7F002CE411 /* YZTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTextAttachment.h; sourceTree = "<group>"; };
+		EC697FC31D56FB7F002CE411 /* YZTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTextAttachment.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC56BA4B1D56257E00881CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC56BA451D56257E00881CBE = {
+			isa = PBXGroup;
+			children = (
+				EC56BA501D56257E00881CBE /* YZEmotionKeyboardDemo */,
+				EC56BA4F1D56257E00881CBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC56BA4F1D56257E00881CBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC56BA4E1D56257E00881CBE /* YZEmotionKeyboardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC56BA501D56257E00881CBE /* YZEmotionKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC697FAF1D56FB7F002CE411 /* YZEmotionKeyboard */,
+				EC56BA891D5631E800881CBE /* InputView */,
+				EC56BA541D56257E00881CBE /* AppDelegate.h */,
+				EC56BA551D56257E00881CBE /* AppDelegate.m */,
+				EC56BA571D56257E00881CBE /* ViewController.h */,
+				EC56BA581D56257E00881CBE /* ViewController.m */,
+				EC56BA5A1D56257E00881CBE /* Main.storyboard */,
+				EC56BA5D1D56257E00881CBE /* Assets.xcassets */,
+				EC56BA5F1D56257E00881CBE /* LaunchScreen.storyboard */,
+				EC56BA621D56257F00881CBE /* Info.plist */,
+				EC56BA511D56257E00881CBE /* Supporting Files */,
+			);
+			path = YZEmotionKeyboardDemo;
+			sourceTree = "<group>";
+		};
+		EC56BA511D56257E00881CBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC56BA521D56257E00881CBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC56BA891D5631E800881CBE /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				EC56BA8A1D5631E800881CBE /* YZInputView.h */,
+				EC56BA8B1D5631E800881CBE /* YZInputView.m */,
+			);
+			path = InputView;
+			sourceTree = "<group>";
+		};
+		EC697FAF1D56FB7F002CE411 /* YZEmotionKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC697FB01D56FB7F002CE411 /* Resource */,
+				EC697FB41D56FB7F002CE411 /* UITextField+YZEmotion.h */,
+				EC697FB51D56FB7F002CE411 /* UITextField+YZEmotion.m */,
+				EC697FB61D56FB7F002CE411 /* UITextView+YZEmotion.h */,
+				EC697FB71D56FB7F002CE411 /* UITextView+YZEmotion.m */,
+				EC697FB81D56FB7F002CE411 /* YZEmotionCell.h */,
+				EC697FB91D56FB7F002CE411 /* YZEmotionCell.m */,
+				EC697FBA1D56FB7F002CE411 /* YZEmotionCell.xib */,
+				EC697FBB1D56FB7F002CE411 /* YZEmotionKeyboard.h */,
+				EC697FBC1D56FB7F002CE411 /* YZEmotionKeyboard.m */,
+				EC697FBD1D56FB7F002CE411 /* YZEmotionKeyboard.xib */,
+				EC697FBE1D56FB7F002CE411 /* YZEmotionManager.h */,
+				EC697FBF1D56FB7F002CE411 /* YZEmotionManager.m */,
+				EC697FC01D56FB7F002CE411 /* YZEmotionPageCell.h */,
+				EC697FC11D56FB7F002CE411 /* YZEmotionPageCell.m */,
+				EC697FC21D56FB7F002CE411 /* YZTextAttachment.h */,
+				EC697FC31D56FB7F002CE411 /* YZTextAttachment.m */,
+			);
+			name = YZEmotionKeyboard;
+			path = ../../YZEmotionKeyboard;
+			sourceTree = "<group>";
+		};
+		EC697FB01D56FB7F002CE411 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EC697FB11D56FB7F002CE411 /* Emotion.bundle */,
+				EC697FB21D56FB7F002CE411 /* emotion.plist */,
+				EC697FB31D56FB7F002CE411 /* emotionToText.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC56BA4D1D56257E00881CBE /* YZEmotionKeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC56BA651D56257F00881CBE /* Build configuration list for PBXNativeTarget "YZEmotionKeyboardDemo" */;
+			buildPhases = (
+				EC56BA4A1D56257E00881CBE /* Sources */,
+				EC56BA4B1D56257E00881CBE /* Frameworks */,
+				EC56BA4C1D56257E00881CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZEmotionKeyboardDemo;
+			productName = YZEmotionKeyboardDemo;
+			productReference = EC56BA4E1D56257E00881CBE /* YZEmotionKeyboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC56BA461D56257E00881CBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yz;
+				TargetAttributes = {
+					EC56BA4D1D56257E00881CBE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = YKYB5YMSRP;
+					};
+				};
+			};
+			buildConfigurationList = EC56BA491D56257E00881CBE /* Build configuration list for PBXProject "YZEmotionKeyboardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC56BA451D56257E00881CBE;
+			productRefGroup = EC56BA4F1D56257E00881CBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC56BA4D1D56257E00881CBE /* YZEmotionKeyboardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC56BA4C1D56257E00881CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC56BA611D56257E00881CBE /* LaunchScreen.storyboard in Resources */,
+				EC697FC41D56FB7F002CE411 /* Emotion.bundle in Resources */,
+				EC697FC51D56FB7F002CE411 /* emotion.plist in Resources */,
+				EC697FCA1D56FB7F002CE411 /* YZEmotionCell.xib in Resources */,
+				EC56BA5E1D56257E00881CBE /* Assets.xcassets in Resources */,
+				EC697FCC1D56FB7F002CE411 /* YZEmotionKeyboard.xib in Resources */,
+				EC697FC61D56FB7F002CE411 /* emotionToText.plist in Resources */,
+				EC56BA5C1D56257E00881CBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC56BA4A1D56257E00881CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC697FC71D56FB7F002CE411 /* UITextField+YZEmotion.m in Sources */,
+				EC56BA591D56257E00881CBE /* ViewController.m in Sources */,
+				EC697FC91D56FB7F002CE411 /* YZEmotionCell.m in Sources */,
+				EC697FCD1D56FB7F002CE411 /* YZEmotionManager.m in Sources */,
+				EC56BA561D56257E00881CBE /* AppDelegate.m in Sources */,
+				EC697FCE1D56FB7F002CE411 /* YZEmotionPageCell.m in Sources */,
+				EC56BA8C1D5631E800881CBE /* YZInputView.m in Sources */,
+				EC697FCB1D56FB7F002CE411 /* YZEmotionKeyboard.m in Sources */,
+				EC697FCF1D56FB7F002CE411 /* YZTextAttachment.m in Sources */,
+				EC697FC81D56FB7F002CE411 /* UITextView+YZEmotion.m in Sources */,
+				EC56BA531D56257E00881CBE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC56BA5A1D56257E00881CBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC56BA5B1D56257E00881CBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC56BA5F1D56257E00881CBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC56BA601D56257E00881CBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC56BA631D56257F00881CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC56BA641D56257F00881CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC56BA661D56257F00881CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZEmotionKeyboardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iThinker.YZEmotionKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC56BA671D56257F00881CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZEmotionKeyboardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iThinker.YZEmotionKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC56BA491D56257E00881CBE /* Build configuration list for PBXProject "YZEmotionKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56BA631D56257F00881CBE /* Debug */,
+				EC56BA641D56257F00881CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC56BA651D56257F00881CBE /* Build configuration list for PBXNativeTarget "YZEmotionKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC56BA661D56257F00881CBE /* Debug */,
+				EC56BA671D56257F00881CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC56BA461D56257E00881CBE /* Project object */;
+}

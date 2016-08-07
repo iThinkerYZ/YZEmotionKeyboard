@@ -19,17 +19,27 @@
 @end
 
 @implementation ViewController
-- (IBAction)clickEmtionKeyboard:(UIButton *)sender {
-    
+
+// 懒加载键盘
+- (YZEmotionKeyboard *)emotionKeyboard
+{
     // 创建表情键盘
     if (_emotionKeyboard == nil) {
+        
         YZEmotionKeyboard *emotionKeyboard = [YZEmotionKeyboard emotionKeyboard];
-        // 
+        
         emotionKeyboard.sendContent = ^(NSString *content){
-            
+            // 点击发送会调用，自动把文本框内容返回给你
         };
+        
         _emotionKeyboard = emotionKeyboard;
     }
+    return _emotionKeyboard;
+}
+
+- (IBAction)clickEmtionKeyboard:(UIButton *)sender {
+    
+    
     
     if (_textView.inputView == nil) {
         _textView.yz_emotionKeyboard = _emotionKeyboard;

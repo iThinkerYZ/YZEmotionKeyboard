@@ -42,7 +42,7 @@
     
     
     if (_textView.inputView == nil) {
-        _textView.yz_emotionKeyboard = _emotionKeyboard;
+        _textView.yz_emotionKeyboard = self.emotionKeyboard;
         [sender setBackgroundImage:[UIImage imageNamed:@"toolbar-text"] forState:UIControlStateNormal];
     } else {
         _textView.inputView = nil;
